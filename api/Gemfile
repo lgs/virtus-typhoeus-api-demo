@@ -1,9 +1,13 @@
 source 'https://rubygems.org'
 
-gem 'rails', '4.0.0'
+ruby '2.2.3'
+
+gem 'rails'
+gem 'responders', '~> 2.0'
+
 gem 'sqlite3'
-gem 'bcrypt-ruby', '~> 3.0.0'
+gem 'bcrypt-ruby'
 gem 'thin'
 gem 'active_model_serializers'
-gem 'debugger', group: [:development, :test]
-gem 'ffaker'
+gem 'pry', group: [:development, :test]
+gem 'faker'
